@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;1,6..12,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 87%;
+    margin: auto;
+}
+
+.section1 {
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(0deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 10px 25px;
+    border-radius: 40px;
+    margin-top: -100px;
+    margin-bottom: 130px;
+}
+
+.section1 .header .navlinks {
+    display: flex;
+}
+
+.section1 .header .navlinks h4 {
+    color: black;
+    margin: 0 30px;
+    font-size: 1.4vw;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 40px;
+}
+
+.section1 .header .navlinks h4:hover {
+    border: 1px solid black;
+}
+
+.section1 .text-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.section1 .text-content h1 {
+    font-size: 5vw;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    line-height: 4.8rem;
+}
+
+.section1 .text-content p {
+    width: 80%;
+    font-size: 2vw;
+    color: rgb(90, 86, 86);
+    margin: 2vw 0;
+}
+
+
+
+/* =======================section2-==================================== */
+
+.section2 {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%234210ac' fill-opacity='0.4' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.section2 .two p {
+    font-size: 1.7vw;
+    margin-bottom: 50px;
+}
+
+.section2 .two h1 {
+    color: #4210ac;
+    font-size: 9vw;
+    text-align: center;
+    font-weight: 900;
+}
+
+.section2 .two .center {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.section2 .two .center2 {
+    color: #8d8a8a;
+    position: relative;
+    z-index: 1;
+}
+
+.section2 .two .center::before {
+    content: 'PELICULAS';
+    position: absolute;
+    padding: 3px;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    z-index: -1;
+
+}
+.section2 .two .center2::before {
+    content: 'SERIES';
+    position: absolute;
+    padding: 3px;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    z-index: -1;
+
+}
+
+/* ============================================section3===================================== */
+
+.section3 {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%234210ac' fill-opacity='0.4' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px;
+}
+
+.section3 .three {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section3 .three .right,
+.section3 .three .left {
+    height: 100%;
+    width: 100%;
+}
+
+
+.section3 .three .left .card1 {
+    width: 10%;
+    height: 10%;
+    background: url(img/enr.jpg);
+    backdrop-filter: blur(5px);
+    padding: 200px;
+    border-radius: 20px;
+}
+
+.section3 .three .left .card2 {
+    width: 10%;
+    height: 10%;
+    background: url(img/anakin.jpg);
+    backdrop-filter: blur(5px);
+    padding: 200px;
+    border-radius: 20px;
+}
+
+.section3 .three .left .card3 {
+    width: 10%;
+    height: 10%;
+    background: url(img/hp.jpg);
+    backdrop-filter: blur(5px);
+    padding: 200px;
+    border-radius: 20px;
+}
+
+.section3 .three .left .card4 {
+    width: 10%;
+    height: 10%;
+    background: url(img/mando.jpg);
+    backdrop-filter: blur(5px);
+    padding: 200px;
+    border-radius: 20px;
+}
+
+.section3 .three .left .card5 {
+    width: 10%;
+    height: 10%;
+    background: url(img/star.jpg);
+    backdrop-filter: blur(5px);
+    padding: 200px;
+    border-radius: 20px;
+}
+
+.section3 .three .left .card6 {
+    width: 10%;
+    height: 10%;
+    background: url(img/dr.jpg);
+    backdrop-filter: blur(5px);
+    padding: 200px;
+    border-radius: 20px;
+}
+
+
+.section3 .three .left .card h3 {
+    font-size: 3.1vw;
+    font-weight: 500;
+}
+
+
+.section3 .three .left h5 {
+    margin: 40px 0;
+}
+

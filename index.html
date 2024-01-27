@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 3 SO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="musica1.html">
+    <link rel="stylesheet" href="musica2.html">
+    <link rel="stylesheet" href="deportes1.html">
+    <link rel="stylesheet" href="deportes2.html">
+    <link rel="stylesheet" href="peliculas1.html">
+    <link rel="stylesheet" href="peliculas2.html">
+    <link rel="stylesheet" href="musica3.html">
+    <link rel="stylesheet" href="deportes3.html">
+    <link rel="stylesheet" href="musica4.html">
+    <link rel="stylesheet" href="deportes4.html">
+    
+    
+</head>
+<body>
+  
+
+  <section class="swiper mySwiper">
+
+    <div class="swiper-wrapper">
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="fotos/charly.webp" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Carlos Isaac</span>
+          <span class="card__name">Ramirez Santamaria</span>
+          <p class="card__text">Facultad de Ingeniería</p>
+          <p class="card__text">Ingeniería en computación</p>
+
+          <a href="peliculas1.html">
+            <button class="card__btn1">Temas de preferencia </button>
+          </a>
+          <a href="musica1.html">
+            <button class="card__btn2">Gustos musicales</button>
+          </a>
+          <a href="deportes1.html">
+            <button class="card__btn3">Deportes</button>
+
+          </a>
+
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="fotos/der.jpeg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Diego</span>
+          <span class="card__name">Esparza Rodríguez</span>
+          <p class="card__text">Facultad de Ingeniería</p>
+          <p class="card__text">Ingeniería en computación</p>
+
+          <a href="peliculas2.html">
+            <button class="card__btn1">Temas de preferencia</button>
+          </a>
+          <a href="musica2.html">
+            <button class="card__btn2">Gustos musicales</button>
+          </a>
+          <a href="deportes2.html">
+            <button class="card__btn3">Deportes</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="fotos/majo.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">María José</span>
+          <span class="card__name">Juárez Juárez</span>
+          <p class="card__text">Facultad de Ingeniería</p>
+          <p class="card__text">Ingeniería en computación</p>
+
+          <a href="peliculas4.html">
+            <button class="card__btn1">Temas de preferencia</button>
+          </a>
+          <a href="musica4.html">
+            <button class="card__btn2">Gustos musicales</button>
+          </a>
+          <a href="deportes4.html">
+            <button class="card__btn3">Deportes</button>            
+          </a>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="fotos/axel.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Axel Fernando</span>
+          <span class="card__name">Mendoza Flores</span>
+          <p class="card__text">Facultad de Ingeniería</p>
+          <p class="card__text">Ingeniería en computación</p>
+
+          <a href="deportes3.html">
+            <button class="card__btn1">Temas de preferencia</button>
+          </a>
+          <a href="musica3.html">
+            <button class="card__btn2">Gustos musicales</button>
+          </a>
+          <a href="deportes3.html">
+            <button class="card__btn3">Deportes</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="fotos/hada.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Dulce Azucena</span>
+          <span class="card__name">Hernández Alarcón </span>
+          <p class="card__text">Facultad de Ingeniería</p>
+          <p class="card__text">Ingeniería en computación</p>
+
+          <a href="hada.html">
+            <button class="card__btn1">Sobre mi</button>            
+          </a>
+          <a href="photos.html">
+            <button class="card__btn2">Gustos</button>
+          </a>
+          <a href="sitios.html">
+            <button class="card__btn3">Sitios</button>
+          </a>
+        </div>
+      </div>
+
+      
+    </div>
+
+    </div>
+  </section>
+
+<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+</body>
+</html>
